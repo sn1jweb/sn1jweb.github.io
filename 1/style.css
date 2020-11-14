@@ -1114,6 +1114,15 @@ line_main {
     margin-bottom: 35px;
     margin-top: 20px;
   }
+  footer #social img {
+    width: 23px;
+    height: 23px;
+    float: left;
+    margin-left: 20px;
+  }
+  footer #rights {
+    font-size: 0.9em;
+  }
 }
 @media (max-width: 400px) {
   #wrapper #bigArticle img {
@@ -1153,6 +1162,9 @@ line_main {
   }
 }
 @media (max-width: 760px) {
+  footer #social p {
+    display: none;
+  }
   #prizes h6 {
     position: relative;
   }
@@ -1623,6 +1635,9 @@ line_main {
   #about_us {
     margin-top: 2300px;
   }
+  .progress_for_img_class img {
+    margin-top: 230px;
+  }
 }
 @media (max-width: 600px) {
   .progress {
@@ -1665,5 +1680,112 @@ line_main {
   .indicators__img {
     margin-bottom: 64px;
     padding-top: 20px;
+  }
+}
+@media (max-width: 759px) {
+  .people_1 {
+    top: 4%;
+    left: 4%;
+    width: 5%;
+    height: 20%;
+    background: #ffbe6a;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    position: absolute;
+    width: 30%;
+    transition: 1s;
+  }
+  .people_2 {
+    top: 21%;
+    left: 65%;
+    width: 4%;
+    height: 23%;
+    background: #ffbe6a;
+    margin-bottom: 4%;
+    position: absolute;
+    border-radius: 10px;
+    width: 30%;
+    transition: 1s;
+  }
+  .people_3 {
+    top: 39%;
+    left: 4%;
+    width: 4%;
+    height: 22%;
+    background: #ffbe6a;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    position: absolute;
+    width: 30%;
+    transition: 1s;
+  }
+  .about_us h5 {
+    color: #dfe3e4;
+    font-family: "Titillium Web", sans-serif;
+    font-size: calc(6px + 1vw);
+    line-height: 100%;
+    margin-top: 1%;
+    word-wrap: break-word;
+    position: relative;
+    /* text-align: center; */
+    top: 69px;
+    left: -4px;
+  }
+
+  .about_us h4 {
+    font-size: 17px;
+  }
+  .about_us h5 {
+    font-size: 13px;
+  }
+  .about_us h3 {
+    margin-top: -4%;
+  }
+}
+@media (max-width: 400px) {
+  .people_1 {
+    top: 4%;
+    left: 1%;
+    width: 25%;
+    height: 22%;
+    background: #ffbe6a;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    position: absolute;
+    width: 35%;
+    transition: 1s;
+  }
+  .people_2 {
+    top: 21%;
+    left: 63%;
+    width: 10%;
+    height: 24%;
+    background: #ffbe6a;
+    margin-bottom: 4%;
+    position: absolute;
+    border-radius: 10px;
+    width: 35%;
+    transition: 1s;
+  }
+  .people_3 {
+    top: 39%;
+    left: 1%;
+    width: 10%;
+    height: 22%;
+    background: #ffbe6a;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    position: absolute;
+    width: 35%;
+    transition: 1s;
+  }
+  #about_us {
+    margin-top: 2200px;
+  }
+  .about_us h3 {
+    margin-top: -4%;
+  }
+  footer #social img {
+    margin-left: 10px;
   }
 }
