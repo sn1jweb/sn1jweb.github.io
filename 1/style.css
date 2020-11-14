@@ -1095,11 +1095,15 @@ line_main {
   #wrapper #bigArticle h1 {
     font-size: 80px;
     margin-top: 180px;
+    margin-left: 5%;
+    width: 90%;
   }
   #wrapper #bigArticle h2 {
     font-size: 36px;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 5%;
+    width: 90%;
   }
   h6 {
     margin-top: 118px;
