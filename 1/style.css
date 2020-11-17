@@ -2421,21 +2421,43 @@ line_main {
     margin-top: 390px;
     margin-left: 0;
   }
+  .bg_4 {
+    margin-top: 50px;
+  }
+  h6 {
+    padding-top: 25%;
+  }
+  #myProgress {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+  }
+  #balance {
+    position: absolute;
+    top: 200px;
+    z-index: 99;
+  }
+  .ico {
+    margin-top: 1220px;
+  }
+  #about_us {
+    margin-top: 1800px;
+  }
 }
 @media (max-width: 400px) {
   #wrapper_4 h2 {
     font-size: 250%;
-    margin-top: 50px;
+    margin-top: 60px;
   }
   #wrapper #bigArticle img {
     width: 95%;
     margin-left: 2%;
-    margin-top: 50px;
+    margin-top: 70px;
   }
   .ico_time {
     width: 75%;
     height: 180px;
-    margin-top: 400px;
+    margin-top: 450px;
     margin-left: 0;
   }
   .features_class {
