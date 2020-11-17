@@ -2451,11 +2451,23 @@ line_main {
   .ico_time {
     width: 72%;
     height: 180px;
-    margin-top: 460px;
+    margin-top: 520px;
     margin-left: 0;
   }
   .features_class {
     margin-top: 110%;
+  }
+  .bg_5 {
+    height: 140%;
+  }
+  #wrapper #bigArticle img {
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 40px;
+  }
+  #wrapper_4 h2 {
+    font-size: 250%;
+    margin-top: 60px;
   }
 }
 @media (max-width: 400px) {
