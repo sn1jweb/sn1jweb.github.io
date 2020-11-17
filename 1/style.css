@@ -2441,7 +2441,12 @@ line_main {
     margin-top: 1220px;
   }
   #about_us {
-    margin-top: 1800px;
+    margin-top: 2000px;
+  }
+}
+@media (max-width: 465px) {
+  #about_us {
+    margin-top: 2200px;
   }
 }
 @media (max-width: 400px) {
@@ -2457,10 +2462,13 @@ line_main {
   .ico_time {
     width: 75%;
     height: 180px;
-    margin-top: 450px;
+    margin-top: 550px;
     margin-left: 0;
   }
   .features_class {
-    margin-top: 95%;
+    margin-top: 150%;
+  }
+  .bg_5 {
+    height: 150%;
   }
 }
