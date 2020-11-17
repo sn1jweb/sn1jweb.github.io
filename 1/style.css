@@ -2448,12 +2448,22 @@ line_main {
   #about_us {
     margin-top: 2200px;
   }
+  .ico_time {
+    width: 72%;
+    height: 180px;
+    margin-top: 460px;
+    margin-left: 0;
+  }
+  .features_class {
+    margin-top: 110%;
+  }
 }
 @media (max-width: 400px) {
   #wrapper_4 h2 {
     font-size: 250%;
     margin-top: 60px;
   }
+
   #wrapper #bigArticle img {
     width: 95%;
     margin-left: 2%;
