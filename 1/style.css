@@ -1334,7 +1334,7 @@ line_main {
   .block_4,
   .block_5,
   .block_6 {
-    margin-top: 3.1%;
+    margin-top: 7%;
   }
   .block_1:before,
   .block_2:before,
@@ -1884,7 +1884,7 @@ line_main {
     margin-left: 50%;
   }
   .progress-bar-ico {
-    margin-top: 1590px;
+    margin-top: 1490px;
   }
   h4 {
     font-size: 16px;
@@ -2088,6 +2088,7 @@ line_main {
     overflow: hidden;
     background: #000;
     z-index: 100;
+    font-size: 24px;
   }
 
   #header_1 a {
@@ -2140,7 +2141,9 @@ line_main {
     background-position: left top;
     background-size: cover;
     width: auto;
-    height: 80vw;
+  }
+  .bg_main10 {
+    height: 700px;
   }
   /*ICO time*/
   .ico_time {
@@ -2262,6 +2265,7 @@ line_main {
 @media (max-width: 781px) {
   #wrapper #bigArticle img {
     width: 76%;
+    opacity: 1;
     margin-left: 12%;
     margin-top: 20px;
   }
@@ -2280,7 +2284,7 @@ line_main {
     margin-bottom: 10%;
   }
   .reward_class {
-    margin-top: 140px;
+    margin-top: 50px;
   }
   #myInput {
     font-size: 15px;
@@ -2311,12 +2315,12 @@ line_main {
   }
   #myProgress {
     position: absolute;
-    top: 230px;
+    top: 350px;
     width: 100%;
   }
   #balance {
     position: absolute;
-    top: 230px;
+    top: 350px;
     z-index: 99;
   }
 }
@@ -2411,7 +2415,7 @@ line_main {
     margin-left: 5%;
   }
   .bg_5 {
-    height: 110%;
+    height: 70%;
   }
 }
 @media (max-width: 500px) {
@@ -2429,12 +2433,12 @@ line_main {
   }
   #myProgress {
     position: absolute;
-    top: 200px;
-    width: 100%;
+    top: 170px;
+    width: 93%;
   }
   #balance {
     position: absolute;
-    top: 200px;
+    top: 170px;
     z-index: 99;
   }
   .ico {
@@ -2443,10 +2447,13 @@ line_main {
   #about_us {
     margin-top: 2000px;
   }
+  #myBar1 {
+    width: 5%;
+  }
 }
 @media (max-width: 465px) {
   #about_us {
-    margin-top: 2200px;
+    margin-top: 2050px;
   }
   .ico_time {
     width: 72%;
@@ -2458,7 +2465,7 @@ line_main {
     margin-top: 110%;
   }
   .bg_5 {
-    height: 140%;
+    height: 70%;
   }
   #wrapper #bigArticle img {
     width: 95%;
@@ -2491,6 +2498,6 @@ line_main {
     margin-top: 110%;
   }
   .bg_5 {
-    height: 150%;
+    height: 60%;
   }
 }
