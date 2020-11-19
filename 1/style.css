@@ -1176,6 +1176,7 @@ line_main {
   margin-right: 2%;
   width: 28px;
   height: 28px;
+  margin-top: 8px;
 }
 .prisez_for_img {
   position: absolute;
@@ -1394,8 +1395,8 @@ line_main {
     margin-top: 20px;
   }
   footer #social img {
-    width: 23px;
-    height: 23px;
+    width: 26px;
+    height: 26px;
     float: left;
     margin-left: 20px;
   }
@@ -2008,7 +2009,7 @@ line_main {
     position: relative;
     /* text-align: center; */
     top: 69px;
-    left: -4px;
+    left: 0px;
   }
 
   .about_us h4 {
@@ -2499,5 +2500,16 @@ line_main {
   }
   .bg_5 {
     height: 60%;
+  }
+}
+.mail_red {
+  color: black;
+}
+.mail_red:hover {
+  color: rgb(184, 73, 73);
+}
+@media (max-width: 330px) {
+  .people_2 {
+    width: 37%;
   }
 }
