@@ -2513,7 +2513,7 @@ line_main {
     width: 37%;
   }
 }
-button {
+.ico_address button {
   display: none;
 }
 .size_foont {
